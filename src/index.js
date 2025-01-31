@@ -1,5 +1,10 @@
 'use strict';
 
+/**
+ * Function that finds a combination of operations (path) performed on number 1 from the allowed operations (multiply by 3 or increase by 5).
+ * @param {number} number - The number we are trying to find a path to.
+ * @returns {string|null} Path to reach the given number, or null in case of an error or if the number is unreachable.
+ */
 function getNumber(number) {
     if (!Number.isInteger(number) || number < 1 || !Number.isFinite(number)) {
         return null;
@@ -9,7 +14,7 @@ function getNumber(number) {
 
     let threePath = null;
     let fivePath = null;
-    
+
     if (number % 3 === 0) {
         threePath = getNumber(number / 3);
     }

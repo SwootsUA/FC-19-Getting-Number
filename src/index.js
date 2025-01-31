@@ -22,8 +22,8 @@ function getPathToNumber(number) {
         fivePath = getPathToNumber(number - 5);
     }
 
-    if (threePath) return `(${getPathToNumber(number / 3)} * 3)`;
-    if (fivePath) return `(${getPathToNumber(number - 5)} + 5)`;
+    if (threePath) return `(${threePath} * 3)`;
+    if (fivePath) return `(${fivePath} + 5)`;
 
     return null;
 }

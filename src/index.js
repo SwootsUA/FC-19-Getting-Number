@@ -6,7 +6,7 @@
  * @returns {string|null} Path to reach the given number, or null in case of an error or if the number is unreachable.
  */
 function getPathToNumber(number) {
-    if (!Number.isInteger(number) || number < 1 || !Number.isFinite(number)) {
+    if (!Number.isInteger(number) || number < 1) {
         return null;
     }
 

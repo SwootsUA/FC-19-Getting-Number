@@ -29,23 +29,23 @@ function getPathToNumber(number) {
 }
 
 console.group('======= Test cases =======');
-console.log('getNumber(9) :>> ', getPathToNumber(9));
-console.log('getNumber(13) :>> ', getPathToNumber(13));
-console.log('getNumber(26) :>> ', getPathToNumber(26));
-console.log('getNumber(27) :>> ', getPathToNumber(27));
+console.log('getPathToNumber(9) :>> ', getPathToNumber(9));
+console.log('getPathToNumber(13) :>> ', getPathToNumber(13));
+console.log('getPathToNumber(26) :>> ', getPathToNumber(26));
+console.log('getPathToNumber(27) :>> ', getPathToNumber(27));
 console.groupEnd();
 
 console.group('======= Unreachable cases =======');
-console.log('getNumber(2) :>> ', getPathToNumber(2));
-console.log('getNumber(4) :>> ', getPathToNumber(4));
-console.log('getNumber(5) :>> ', getPathToNumber(5));
-console.log('getNumber(10) :>> ', getPathToNumber(10));
+console.log('getPathToNumber(2) :>> ', getPathToNumber(2));
+console.log('getPathToNumber(4) :>> ', getPathToNumber(4));
+console.log('getPathToNumber(5) :>> ', getPathToNumber(5));
+console.log('getPathToNumber(10) :>> ', getPathToNumber(10));
 console.groupEnd();
 
 console.group('======= Faulty cases =======');
-console.log('getNumber(NaN) :>> ', getPathToNumber(NaN));
-console.log('getNumber(null) :>> ', getPathToNumber(null));
-console.log('getNumber(0) :>> ', getPathToNumber(0));
-console.log('getNumber(-25) :>> ', getPathToNumber(-25));
-console.log('getNumber(Infinity) :>> ', getPathToNumber(Infinity));
+console.log('getPathToNumber(NaN) :>> ', getPathToNumber(NaN));
+console.log('getPathToNumber(null) :>> ', getPathToNumber(null));
+console.log('getPathToNumber(0) :>> ', getPathToNumber(0));
+console.log('getPathToNumber(-25) :>> ', getPathToNumber(-25));
+console.log('getPathToNumber(Infinity) :>> ', getPathToNumber(Infinity));
 console.groupEnd();
